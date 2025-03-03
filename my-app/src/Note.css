@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 20px;
+    line-height: 38px;
+    i{
+        font-size: 25px;
+        cursor: pointer;
+        color: #fff;
+    }
+    .header-menu{position: relative;}
+    .header-ul{
+        list-style: none;
+        position: absolute;
+        font-size: 15px;
+        width: 120px;
+        user-select: none;
+        /* height : 100px; */
+        background-color: #fff;
+        border-radius: 3px;
+        right: 12px;
+        
+        color: #000;
+        li{
+            padding: -15px 0 0 10px;
+            margin-left: 10px;    
+        }
+    }
+}
+.search-box{
+    position: relative;
+    width: 35%;
+    margin: 20px auto;
+    .input{
+        height: 35px;
+        width: 100%;
+        margin: auto;
+        padding: 0 10px;
+        border: 2px solid transparent;
+        border-radius: 30px;
+        outline: none;
+        font-size: 15px;
+    }
+    .input:focus{
+        border: 2px solid #EF6C24;
+    }
+    i{
+        position: absolute;
+        right: 10px;
+        top: -2px;
+        color: gray;
+        cursor: pointer;
+    }
+}
+.addPage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #EF6C24;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        font-size: 30px;
+        color: #fff;
+        
+    }
+}
+.saveBox{
+    margin: 15px 0px 0 20px;  
+    min-height: 60px;  
+    width: 150px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding-bottom: 8px;
+    .header-box{
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 5px;
+        color: #000;
+        i{
+            font-size: 20px;
+            line-height: 26px;
+            color: #000;
+            margin-right: -5px;
+        }
+    }
+}
+.body{
+    display: flex;
+    margin: 0 0px -3px 5px;
+    font-size: 16px;
+    gap: 5px;
+}
+.body-Archived{
+    display: flex;
+    margin: 0 0px -3px 5px;
+    gap: 5px;
+    input{
+        accent-color: #EF6C24;
+    }
+}
+.wrapperNote{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(35px);
+    align-items: flex-start;
+}
+.menu{
+    position: relative;
+}
+.box-ul{
+    list-style: none;
+    position: absolute;
+    background-color: #fff7f7;
+    border-radius: 3px;
+    width: 140px;
+    font-size: 16px;
+    z-index: 99;
+    box-shadow: -2px -5px 15px rgba(0,0,0,0.1);
+    user-select: none;
+    li{
+        padding: 10px 0 0 10px;
+    }
+}

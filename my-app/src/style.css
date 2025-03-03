@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.stylePage{
+    height: 100vh;
+    width: 100%;
+    background-color: #F2BCA0;
+    overflow-x: auto;
+}
+.navBar{
+    height: 40px;
+    width: 100%;
+    background-color: #EF6C24;
+}
